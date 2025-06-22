@@ -2,111 +2,130 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Bwanika Philip" />
+    <meta name="author" content="Bwanika" />
     <meta
       name="description"
-      content="The Official website for the Little Taco shop"
+      content="The Official Website for The Little Taco Shop"
     />
-    <title>The Little Taco Shop</title>
-    <link
-      rel="icon"
-      href="favicon/icons8-favicon-48.png"
-      type="images/x-icon"
-    />
+    <title>Little Taco Shop</title>
+    <link rel="icon" href="Iconz/contactUs.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
-    <script src="js/main.js" defer></script>
   </head>
-
   <body>
-    <header class="header">
-      <h1 class="header_h1">Bwan's Taco Shop</h1>
-      <nav class="header_nav">
-        <ul class="header_ul">
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="hours.html">Hours</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
+    <header>
+      <h1>Welcome to The Little Taco Shop</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#about"
+              >About<abbr title="The Little Taco Shop">LTS</abbr></a
+            >
+          </li>
+          <li><a href="#menu">Our Menu</a></li>
+          <li><a href="hours.html">Store Hours</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
-    </header>
 
-    <section class="hero">
-      <h2 class="hero_h2">Amor Bwanika!</h2>
       <figure>
         <img
-          src="img/drink-taco_hero-bigz.jpg"
-          alt="taco and drink"
-          title="We love taco"
-          width="1000"
-          height="667"
+          src="Imagz/TacosAndDrink.jpg"
+          alt="tacosAndaDrink"
+          title="weLoveTacos"
+          width="400"
+          height="267"
+          loading="lazy"
         />
-        <figcaption class="offscreen">Taco and a Drink</figcaption>
+        <figcaption>Tacos And a Drink</figcaption>
       </figure>
-    </section>
+    </header>
+    <hr />
 
-    <main class="main">
-      <article id="menu" class="main_article menu">
-        <h2 class="menu_h2">Our Menu</h2>
-        <table class="menu_container">
-          <caption class="offscreen">
+    <main>
+      <article id="about">
+        <h2>About<abbr title="The Little Taco Shop">LTS</abbr></h2>
+        <p>
+          <abbr title="The Little Taco Shop">LTS</abbr> was foundedd in
+          <time datetime="2022">2022</time>. Our shop was build from
+          <strong>love of Tacos</strong> 🌮 🌮 🌮 .We hope our shop adds a
+          unique and interesting place to our little town.
+        </p>
+        <aside>
+          <h3>Taco Trivia</h3>
+          <details>
+            <summary>When did Tacos forst appear in the United States</summary>
+            <p>
+              Jeffery M. piicher,taco historian and professor of history at the
+              University of Minnesota,says the earliest mention of tacos in the
+              United States are in the news paperfrom
+              <time datetime="1905">1905</time>.(source:<cite
+                ><a href="https://emojipedia.org/taco" target="_blank"
+                  >Smithsonian Magazine)</a
+                ></cite
+              >
+            </p>
+          </details>
+        </aside>
+      </article>
+      <hr />
+      <article id="menu">
+        <h3>Our Menu</h3>
+        <table>
+          <caption>
             Our Tacos
           </caption>
           <thead>
             <tr>
-              <th class="menu_header" scope="col">Tacos</th>
-              <th class="menu_header" scope="col" title="Quantity">Qty</th>
-              <th class="menu_header" scope="col">Price</th>
+              <th>Tacos</th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+              <th scope="col">Price</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th class="menu_item menu_cr" scope="row" rowspan="3">Crunchy</th>
-              <td class="menu_item">1</td>
-              <td class="menu_item">$1.50</td>
+              <th scope="row" rowspan="3">Crunchy</th>
+              <td>1</td>
+              <td>$1.50</td>
             </tr>
 
             <tr>
-              <td class="menu_item">2</td>
-              <td class="menu_item">$2.50</td>
+              <td>2</td>
+              <td>$2.50</td>
             </tr>
             <tr>
-              <td class="menu_item">3</td>
-              <td class="menu_item">$3.25</td>
+              <td>3</td>
+              <td>$3.25</td>
             </tr>
             <tr>
-              <th class="menu_item menu_sf" scope="row" rowspan="3">Soft</th>
-              <td class="menu_item">1</td>
-              <td class="menu_item">$2.00</td>
+              <th scope="row" rowspan="3">Soft</th>
+              <td>1</td>
+              <td>$2.00</td>
             </tr>
 
             <tr>
-              <td class="menu_item">2</td>
-              <td class="menu_item">$3.50</td>
+              <td>2</td>
+              <td>$3.50</td>
             </tr>
             <tr>
-              <td class="menu_item">3</td>
-              <td class="menu_item">$4.50</td>
+              <td>3</td>
+              <td>$4.50</td>
             </tr>
           </tbody>
           <tfoot>
             <tr>
-              <td class="menu_item menu_cs" colspan="3">
-                Chips &amp; Salsa $2
-              </td>
+              <td colspan="3">Chips &amp; Salsa $2</td>
             </tr>
           </tfoot>
         </table>
-
-        <p class="center"><a href="#">Back to Top</a></p>
+        <br />
       </article>
     </main>
 
-    <footer class="footer">
-      <p>
-        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
-        <span class="nowrap">Little Taco Shop</span>
-      </p>
+    <footer>
+      <p><a href="#">Back to Top</a></p>
+      <hr />
+      <p>Copyright &copy; The Little Taco Shop</p>
     </footer>
   </body>
 </html>
